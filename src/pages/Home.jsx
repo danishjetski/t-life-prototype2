@@ -23,7 +23,7 @@ export default function Home({ darkMode = false }) {
                 </div>
 
                 <div className="mt-6 md:mt-0">
-                    <EventFeed darkMode={darkMode} />
+                    <EventFeed mode={mode} darkMode={darkMode} />
                 </div>
             </div>
         </div>
